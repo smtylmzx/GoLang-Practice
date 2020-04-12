@@ -1,2 +1,2 @@
 # GoLang-Practice
-Some practice by go lang
+Some practices, go lang
