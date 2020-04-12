@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-var total = 1
-
 func main() {
 	var value int
 	fmt.Println("enter a number")
@@ -13,10 +11,9 @@ func main() {
 
 func calculate(number int) int {
 	if number == 1 {
-		return total
+		return 1
 	}
-	total *= number
-	return calculate(number - 1)
+	return number * calculate(number-1)
 }
 
 func result(t int) {
